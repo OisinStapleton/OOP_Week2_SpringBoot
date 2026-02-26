@@ -25,6 +25,12 @@ public class RequestController {
         Person Person = new Person(21, "Finnya");
         return Person;
     }
+    @GetMapping("/addition")
+            public Calculate addition(){
+        Calculate Calculate = new Calculate(6,2);
+    return Calculate;
+    }
+
 
 }
 
